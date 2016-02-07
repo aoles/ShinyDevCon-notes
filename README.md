@@ -20,19 +20,19 @@ Author of the Shiny reactive programming framework explaining the philosophy beh
 
 Code on GitHub: https://github.com/rstudio/reactivity-tutorial (see branch `with-solutions` for answers)
 
-## Shiny Gadgets 
+## Shiny Gadgets | *Hadley Wickham*
 
 *Things that are hard to express with code but you want to do reproducibly* -- Hadley Wickham
 
-Build interactive graphical tools for exploratory data analysis that run locally, taking your data as input and returning a result. [Read more](http://shiny.rstudio.com/articles/gadgets.html)
+Build interactive graphical tools for exploratory data analysis that run locally, taking your data as input and returning a result. [Article](http://shiny.rstudio.com/articles/gadgets.html)
 
 ## Modules | *Joe Cheng*
 
-Manage complex Shiny applications by modularizing their code. [Read more](http://shiny.rstudio.com/articles/modules.html)
+Manage complex Shiny applications by modularizing their code. [Article](http://shiny.rstudio.com/articles/modules.html)
 
 ## HTML templates | *Garrett Grolemund* 
 
-Author the structure and style of your app's UI in HTML, but still conveniently insert input and output widgets using R functions. [Read more](http://shiny.rstudio.com/articles/templates.html)
+Author the structure and style of your app's UI in HTML, but still conveniently insert input and output widgets using R functions. [Article](http://shiny.rstudio.com/articles/templates.html)
 
 ## Debugging Shiny applications | *Jonathan McPherson*
 
@@ -43,7 +43,7 @@ Debugging
 Tracing
 - showcase mode: `runApp(..., display.mode = "showcase")`
 - reactive log: `options(shiny.reactlog = TRUE)`, start visualization in app by hitting `Ctrl+F3`
-- `cat`
+- print to console: `cat`
 - shinyapps.io: `rsconnect::showLogs(streaming = TRUE)`
 - Shiny Server: `tail -f /var/log/shiny-server/myapp-20160131-104403-8492.log`
 - client/server: `options(shiny.trace = TRUE)`
@@ -57,7 +57,7 @@ Error handling
 
 ## Building dashboards | *Nathan Stephens*
 
-An increasingly popular use of Shiny is in building dashboards, especially since the release of the [shinydashboard](https://github.com/rstudio/shinydashboard) package. [Read more](http://rstudio.github.io/shinydashboard/)
+An increasingly popular use of Shiny is in building dashboards, especially since the release of the [shinydashboard](https://github.com/rstudio/shinydashboard) package. [Project website](http://rstudio.github.io/shinydashboard/)
 
 ## Profiling | *Winston Chang*
 
@@ -65,9 +65,9 @@ Use [profvis](https://github.com/rstudio/profvis) to find and fix performance bo
 
 ## Data Tables | *Yihui Xie*
 
-The R package [DT](https://github.com/rstudio/DT) is an interface to the DataTables JavaScript library which renders HTML tables that can be paginated, filtered, and sorted. [Read more](http://rstudio.github.io/shinydashboard/)
+The R package [DT](https://github.com/rstudio/DT) is an interface to the DataTables JavaScript library which renders HTML tables that can be paginated, filtered, and sorted.
 
-## Authoring books with rmarkdown
+## Authoring books with rmarkdown *Yihui Xie*
 
 Preview of the new [bookdown](http://rstudio.github.io/bookdown) package for laying out complex, multi-file documents.
 
