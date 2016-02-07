@@ -26,6 +26,14 @@ Code on GitHub: https://github.com/rstudio/reactivity-tutorial (see branch `with
 
 Build interactive graphical tools for exploratory data analysis that run locally, taking your data as input and returning a result. [Read more](http://shiny.rstudio.com/articles/gadgets.html)
 
+## Modules | *Joe Cheng*
+
+Manage complex Shiny applications by modularizing their code. [Read more](http://shiny.rstudio.com/articles/modules.html)
+
+## HTML templates | *Garrett Grolemund* 
+
+Author the structure and style of your app's UI in HTML, but still conveniently insert input and output widgets using R functions. [Read more](http://shiny.rstudio.com/articles/templates.html)
+
 ## Debugging Shiny applications | *Jonathan McPherson*
 
 Debugging
@@ -54,6 +62,26 @@ An increasingly popular use of Shiny is in building dashboards, especially since
 ## Profiling | *Winston Chang*
 
 Use [profvis](https://github.com/rstudio/profvis) to find and fix performance bottlenecks to make your apps as responsive as possible.
+
+## Data Tables | *Yihui Xie*
+
+The R package [DT](https://github.com/rstudio/DT) is an interface to the DataTables JavaScript library which renders HTML tables that can be paginated, filtered, and sorted. [Read more](http://rstudio.github.io/shinydashboard/)
+
+## Authoring books with rmarkdown
+
+Preview of the new [bookdown](http://rstudio.github.io/bookdown) package for laying out complex, multi-file documents.
+
+## shinyjs | *Dean Attali*
+
+Perform common JavaScript operations in Shiny apps using plain R code
+- hide an element
+- disable an input
+- reset an input back to its original value
+- delay code execution by a few seconds
+- run your own custom JavaScript functions from R
+- color picker
+
+[CRAN](http://cran.r-project.org/web/packages/shinyjs) &bull; [GitHub](http://github.com/daattali/shinyjs) &bull; [Live demo](http://daattali.com/shiny/shinyjs-demo/)
 
 ## Further reading
 
