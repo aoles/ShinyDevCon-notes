@@ -3,9 +3,9 @@
 Website: http://www.rstudio.com/shinydevcon  
 Twitter: [#shinydevcon](http://twitter.com/hashtag/shinydevcon)
 
-## Reactivity tutorial
+## Reactivity tutorial | *Joe Cheng*
 
-Joe Cheng explaining the philosophy behind Shiny’s reactive programming framework and exploring patterns and techniques for using it well.
+Author of the Shiny reactive programming framework explaining the philosophy behind reactivity and exploring patterns and techniques for using it well.
 
 - Prefer using reactive expressions to model calculations, over using observers to set (reactive) variables.
 - `reactive()` is for calculating values, without side effects.
@@ -26,7 +26,7 @@ Code on GitHub: https://github.com/rstudio/reactivity-tutorial (see branch `with
 
 Build interactive graphical tools for exploratory data analysis that run locally, taking your data as input and returning a result. [Read more](http://shiny.rstudio.com/articles/gadgets.html)
 
-## Debugging Shiny applications
+## Debugging Shiny applications | *Jonathan McPherson*
 
 Debugging
 - breakpoints using RStudio
@@ -46,6 +46,14 @@ Error handling
 - JavaScript dev mode on OS X: `defaults write org.rstudio.RStudio WebKitDeveloperExtras -bool true`
 
 [Slides](http://rpubs.com/jmcphers/149638) &bull; [Article](http://shiny.rstudio.com/articles/debugging.html)
+
+## Building dashboards | *Nathan Stephens*
+
+An increasingly popular use of Shiny is in building dashboards, especially since the release of the [shinydashboard](https://github.com/rstudio/shinydashboard) package. [Read more](http://rstudio.github.io/shinydashboard/)
+
+## Profiling | *Winston Chang*
+
+Use [profvis](https://github.com/rstudio/profvis) to find and fix performance bottlenecks to make your apps as responsive as possible.
 
 ## Further reading
 
