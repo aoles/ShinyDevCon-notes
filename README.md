@@ -91,3 +91,12 @@ Perform common JavaScript operations in Shiny apps using plain R code
 - [Shiny Developers Conference Review](http://www.r-bloggers.com/shiny-developers-conference-review/) by Aimee Gott
 - [Shiny Developer Conference](http://www.r-bloggers.com/shiny-developer-conference/) by John Mount
 - [DataScienceLA](http://www.youtube.com/user/DataScienceLA) interviews with by Joe Cheng, Yihui Xie, Hadley Wickham and JJ Alaire
+
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function() {
+  var links = document.links;  
+  for (var i = 0, linksLength = links.length; i < linksLength; i++)
+    if (links[i].hostname != window.location.hostname)
+      links[i].target = '_blank';
+});
+</script>
