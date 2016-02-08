@@ -18,23 +18,28 @@ Author of the Shiny reactive programming framework explaining the philosophy beh
 | Lazy |	Eager |
 | Cached | N/A |
 
-Code on GitHub: https://github.com/rstudio/reactivity-tutorial (see branch `with-solutions` for answers)
+[Tutorial](https://github.com/rstudio/reactivity-tutorial) (see `with-solutions` branch for answers)
+
+## Interactive Graphics | *Winston Chang*
+
+- adding/selecting single points using `click`, `dblcick`, and `hover`
+- linked brushing
+
+[Slides](https://gist.github.com/wch/25a1c4ce8fc84022d3e7)
 
 ## Shiny Gadgets | *Hadley Wickham*
 
 *Things that are hard to express with code but you want to do reproducibly* -- Hadley Wickham
 
-Build interactive graphical tools for exploratory data analysis that run locally, taking your data as input and returning a result. [Article](http://shiny.rstudio.com/articles/gadgets.html)
+Build interactive graphical tools for exploratory data analysis that run locally, taking your data as input and returning a result.
+
+[Article](http://shiny.rstudio.com/articles/gadgets.html)
 
 ## Modules | *Garrett Grolemund*
 
 Manage complex Shiny apps by modularizing their code. 
 
 [Slides](https://github.com/aoles/modules-tutorial/blob/master/01-Modules.pdf) &bull; [Tutorial](https://github.com/aoles/modules-tutorial) &bull; [Article](http://shiny.rstudio.com/articles/modules.html)
-
-## HTML templates
-
-Author the structure and style of your app's UI in HTML, but still conveniently insert input and output widgets using R functions. [Article](http://shiny.rstudio.com/articles/templates.html)
 
 ## Debugging Shiny applications | *Jonathan McPherson*
 
@@ -57,13 +62,23 @@ Error handling
 
 [Slides](http://rpubs.com/jmcphers/149638) &bull; [Article](http://shiny.rstudio.com/articles/debugging.html)
 
+## HTML templates
+
+Author the structure and style of your app's UI in HTML, but still conveniently insert input and output widgets using R functions.
+
+[Article](http://shiny.rstudio.com/articles/templates.html)
+
 ## Building dashboards | *Nathan Stephens*
 
-An increasingly popular use of Shiny is in building dashboards, especially since the release of the [shinydashboard](https://github.com/rstudio/shinydashboard) package. [Project website](http://rstudio.github.io/shinydashboard/)
+An increasingly popular use of Shiny is in building dashboards, especially since the release of the [shinydashboard](https://github.com/rstudio/shinydashboard) package.
+
+[Project website](http://rstudio.github.io/shinydashboard/)
 
 ## Profiling | *Winston Chang*
 
 Use [profvis](https://github.com/rstudio/profvis) to find and fix performance bottlenecks to make your apps as responsive as possible.
+
+[Slides](https://rpubs.com/wch/123888)
 
 ## Data Tables | *Yihui Xie*
 
@@ -72,6 +87,10 @@ The R package [DT](https://github.com/rstudio/DT) is an interface to the DataTab
 ## Authoring books with R Markdown  | *Yihui Xie*
 
 Preview of the new [bookdown](http://rstudio.github.io/bookdown) package for laying out complex, multi-file documents. Features automatic numbering of figures and tables in the HTML output, cross-references of figures and tables, and fine control of the appearance of figures.
+
+## Grid Style Sheets 2.0  | *Yihui Xie*
+
+http://gridstylesheets.org/
 
 ## shinyjs | *Dean Attali*
 
@@ -91,12 +110,3 @@ Perform common JavaScript operations in Shiny apps using plain R code
 - [Shiny Developers Conference Review](http://www.r-bloggers.com/shiny-developers-conference-review/) by Aimee Gott
 - [Shiny Developer Conference](http://www.r-bloggers.com/shiny-developer-conference/) by John Mount
 - [DataScienceLA](http://www.youtube.com/user/DataScienceLA) interviews with by Joe Cheng, Yihui Xie, Hadley Wickham and JJ Alaire
-
-<script type="text/javascript">
-document.addEventListener("DOMContentLoaded", function() {
-  var links = document.links;  
-  for (var i = 0, linksLength = links.length; i < linksLength; i++)
-    if (links[i].hostname != window.location.hostname)
-      links[i].target = '_blank';
-});
-</script>
