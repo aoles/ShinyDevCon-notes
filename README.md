@@ -28,7 +28,7 @@ Build interactive graphical tools for exploratory data analysis that run locally
 
 ## Modules | *Garrett Grolemund*
 
-Manage complex Shiny applications by modularizing their code. 
+Manage complex Shiny apps by modularizing their code. 
 
 [Slides](https://github.com/aoles/modules-tutorial/blob/master/01-Modules.pdf) &bull; [Tutorial](https://github.com/aoles/modules-tutorial) &bull; [Article](http://shiny.rstudio.com/articles/modules.html)
 
@@ -69,9 +69,9 @@ Use [profvis](https://github.com/rstudio/profvis) to find and fix performance bo
 
 The R package [DT](https://github.com/rstudio/DT) is an interface to the DataTables JavaScript library which renders HTML tables that can be paginated, filtered, and sorted.
 
-## Authoring books with rmarkdown *Yihui Xie*
+## Authoring books with R Markdown  | *Yihui Xie*
 
-Preview of the new [bookdown](http://rstudio.github.io/bookdown) package for laying out complex, multi-file documents.
+Preview of the new [bookdown](http://rstudio.github.io/bookdown) package for laying out complex, multi-file documents. Features automatic numbering of figures and tables in the HTML output, cross-references of figures and tables, and fine control of the appearance of figures.
 
 ## shinyjs | *Dean Attali*
 
