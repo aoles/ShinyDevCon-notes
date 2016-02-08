@@ -103,6 +103,10 @@ Perform common JavaScript operations in Shiny apps using plain R code
 
 [CRAN](http://cran.r-project.org/web/packages/shinyjs) &bull; [GitHub](http://github.com/daattali/shinyjs) &bull; [Live demo](http://daattali.com/shiny/shinyjs-demo/)
 
+## Bindings to popular JavaScript libraries | *Herman Sontrop ([Friss](http://www.friss.eu/en/))*
+
+[GitHub](https://github.com/FrissAnalytics/shinyJsTutorials) - tutorials will appear soon
+
 ## Further reading
 
 - [Shiny Developer Conference 2016 Recap](http://www.r-bloggers.com/shiny-developer-conference-2016-recap/) by VP Nagraj
