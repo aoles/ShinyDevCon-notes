@@ -26,11 +26,13 @@ Code on GitHub: https://github.com/rstudio/reactivity-tutorial (see branch `with
 
 Build interactive graphical tools for exploratory data analysis that run locally, taking your data as input and returning a result. [Article](http://shiny.rstudio.com/articles/gadgets.html)
 
-## Modules | *Joe Cheng*
+## Modules | *Garrett Grolemund*
 
-Manage complex Shiny applications by modularizing their code. [Article](http://shiny.rstudio.com/articles/modules.html)
+Manage complex Shiny applications by modularizing their code. 
 
-## HTML templates | *Garrett Grolemund* 
+[Slides](https://github.com/aoles/modules-tutorial/blob/master/01-Modules.pdf) &bull; [Tutorial](https://github.com/aoles/modules-tutorial) &bull; [Article](http://shiny.rstudio.com/articles/modules.html)
+
+## HTML templates
 
 Author the structure and style of your app's UI in HTML, but still conveniently insert input and output widgets using R functions. [Article](http://shiny.rstudio.com/articles/templates.html)
 
