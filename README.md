@@ -6,7 +6,6 @@ Twitter: [#shinydevcon](http://twitter.com/hashtag/shinydevcon)
 ## Reactivity tutorial | *Joe Cheng*
 
 Author of the Shiny reactive programming framework explaining the philosophy behind reactivity and exploring patterns and techniques for using it well.
-
 - Prefer using reactive expressions to model calculations, over using observers to set (reactive) variables.
 - `reactive()` is for calculating values, without side effects.
 - `observe()` is for performing actions, with side effects.
@@ -20,7 +19,7 @@ Author of the Shiny reactive programming framework explaining the philosophy beh
 
 [Tutorial](https://github.com/rstudio/reactivity-tutorial) (see `with-solutions` branch for answers)
 
-## Interactive Graphics | *Winston Chang*
+## Interactive graphics | *Winston Chang*
 
 - adding/selecting single points using `click`, `dblcick`, and `hover`
 - linked brushing
@@ -78,7 +77,7 @@ An increasingly popular use of Shiny is in building dashboards, especially since
 
 Use [profvis](https://github.com/rstudio/profvis) to find and fix performance bottlenecks to make your apps as responsive as possible.
 
-[Slides](https://rpubs.com/wch/123888)
+[Vignette](https://rpubs.com/wch/123888)
 
 ## Data Tables | *Yihui Xie*
 
