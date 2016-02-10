@@ -86,10 +86,6 @@ The R package [DT](https://github.com/rstudio/DT) is an interface to the DataTab
 
 Preview of the new [bookdown](http://rstudio.github.io/bookdown) package for laying out complex, multi-file documents. Features automatic numbering of figures and tables in the HTML output, cross-references of figures and tables, and fine control of the appearance of figures.
 
-## Grid Style Sheets 2.0  | *Yihui Xie*
-
-http://gridstylesheets.org/
-
 ## shinyjs | *Dean Attali*
 
 Perform common JavaScript operations in Shiny apps using plain R code
@@ -100,7 +96,15 @@ Perform common JavaScript operations in Shiny apps using plain R code
 - run your own custom JavaScript functions from R
 - color picker
 
-[CRAN](http://cran.r-project.org/web/packages/shinyjs) &bull; [GitHub](http://github.com/daattali/shinyjs) &bull; [Live demo](http://daattali.com/shiny/shinyjs-demo/)
+[CRAN](http://cran.r-project.org/web/packages/shinyjs) &bull; [GitHub](http://github.com/daattali/shinyjs) &bull; [R-Podcast](https://www.r-podcast.org/posts/the-r-podcast-episode-16-interview-with-dean-attali.html) &bull; [Live demo](http://daattali.com/shiny/shinyjs-demo/)
+
+## Radiant - Business analytics using R and Shiny | *Vincent Nijs*
+
+[GitHub](https://github.com/vnijs/radiant) &bull; [Documentation](http://vnijs.github.io/radiant/) &bull; [R-Podcast](https://www.r-podcast.org/posts/the-r-podcast-episode-17-a-simply-radiant-chat-with-vincent-nijs.html) &bull; [Live demo](https://internal.shinyapps.io/vnijs/marketing/)
+
+## Grid Style Sheets 2.0  | *Yihui Xie*
+
+http://gridstylesheets.org/
 
 ## Bindings to popular JavaScript libraries | *Herman Sontrop ([Friss](http://www.friss.eu/en/))*
 
