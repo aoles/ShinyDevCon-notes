@@ -82,10 +82,6 @@ Use [profvis](https://github.com/rstudio/profvis) to find and fix performance bo
 
 The R package [DT](https://github.com/rstudio/DT) is an interface to the DataTables JavaScript library which renders HTML tables that can be paginated, filtered, and sorted.
 
-## Authoring books with R Markdown  | *Yihui Xie*
-
-Preview of the new [bookdown](http://rstudio.github.io/bookdown) package for laying out complex, multi-file documents. Features automatic numbering of figures and tables in the HTML output, cross-references of figures and tables, and fine control of the appearance of figures.
-
 ## shinyjs | *Dean Attali*
 
 Perform common JavaScript operations in Shiny apps using plain R code
