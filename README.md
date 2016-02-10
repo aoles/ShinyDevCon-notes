@@ -5,10 +5,9 @@ Twitter: [#shinydevcon](http://twitter.com/hashtag/shinydevcon)
 
 ## Reactivity tutorial | *Joe Cheng*
 
-Author of the Shiny reactive programming framework explaining the philosophy behind reactivity and exploring patterns and techniques for using it well.
+Author of the Shiny reactive programming framework explains the philosophy behind reactivity and explores patterns and techniques for using it well.
 - Prefer using reactive expressions to model calculations, over using observers to set (reactive) variables.
-- `reactive()` is for calculating values, without side effects.
-- `observe()` is for performing actions, with side effects.
+- Use reactive expressions for calculations (no side effects). Use observers for actions (side effects).
 
 | `reactive()` | `observe()` |
 | ---------- | --------- |
@@ -17,11 +16,11 @@ Author of the Shiny reactive programming framework explaining the philosophy beh
 | Lazy |	Eager |
 | Cached | N/A |
 
-[Tutorial](https://github.com/rstudio/reactivity-tutorial) (see `with-solutions` branch for answers)
+[Slides](https://cdn.rawgit.com/rstudio/reactivity-tutorial/master/slides.html#/warm-up-side-effects) &bull; [Tutorial](https://github.com/rstudio/reactivity-tutorial) (see `with-solutions` branch for answers)
 
 ## Interactive graphics | *Winston Chang*
 
-- adding/selecting single points using `click`, `dblcick`, and `hover`
+- add/select single points using `click`, `dblcick`, and `hover`
 - linked brushing
 
 [Slides](https://gist.github.com/wch/25a1c4ce8fc84022d3e7)
@@ -38,7 +37,7 @@ Build interactive graphical tools for exploratory data analysis that run locally
 
 Manage complex Shiny apps by modularizing their code. 
 
-[Slides](https://github.com/aoles/modules-tutorial/blob/master/01-Modules.pdf) &bull; [Tutorial](https://github.com/aoles/modules-tutorial) &bull; [Article](http://shiny.rstudio.com/articles/modules.html)
+[Slides](https://cdn.rawgit.com/aoles/modules-tutorial/master/01-Modules.pdf) &bull; [Tutorial](https://github.com/aoles/modules-tutorial) &bull; [Article](http://shiny.rstudio.com/articles/modules.html)
 
 ## Debugging Shiny applications | *Jonathan McPherson*
 
