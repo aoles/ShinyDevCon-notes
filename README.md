@@ -16,7 +16,7 @@ Author of the Shiny reactive programming framework explains the philosophy behin
 | Lazy |	Eager |
 | Cached | N/A |
 
-[Slides](https://cdn.rawgit.com/rstudio/reactivity-tutorial/master/slides.html#/warm-up-side-effects) &bull; [Tutorial](https://github.com/rstudio/reactivity-tutorial) (see `with-solutions` branch for answers)
+[Slides](https://cdn.rawgit.com/rstudio/reactivity-tutorial/master/slides.html#/warm-up-side-effects) &bull; [Tutorial](https://github.com/rstudio/reactivity-tutorial) (see `with-solutions` branch for answers) &bull; [R-Podcast](https://www.r-podcast.org/posts/the-r-podcast-episode-18-interviews-with-the-rstudio-team.html)
 
 ## Interactive graphics | *Winston Chang*
 
