@@ -1,6 +1,7 @@
 # Highlights from the Shiny Developer Conference
 
 Website: http://www.rstudio.com/shinydevcon  
+Videos: https://www.rstudio.com/resources/webinars/shiny-developer-conference  
 Twitter: [#shinydevcon](http://twitter.com/hashtag/shinydevcon)
 
 ## Reactivity tutorial | *Joe Cheng*
